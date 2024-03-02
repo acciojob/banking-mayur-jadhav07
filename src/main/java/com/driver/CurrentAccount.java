@@ -24,7 +24,7 @@ public class CurrentAccount extends BankAccount{
         // Check if no two consecutive characters are the same
         for (int i = 0; i < tradeLicenseId.length() - 1; i++) {
             if (tradeLicenseId.charAt(i) == tradeLicenseId.charAt(i + 1)) {
-                throw new Exception("Valid License can not be generated");
+                throw new Exception("Valid License can not be");
             }
         }
 
